@@ -2,10 +2,10 @@ export const Cadastro = document.querySelector(".principal__form-botao").
 addEventListener("click", 
 function(event){
   event.preventDefault()
-  const nome = document.querySelector('[data-form-nome]').value;
-  const email = document.querySelector('[data-form-email]').value;
-  console.log(nome);
-  console.log(email);
+  let inputNome = document.querySelector('[data-form-nome]');
+  let nome = inputNome.value
+  let inputEmail = document.querySelector('[data-form-email]');
+  let email = inputEmail.value
   const cadastros = JSON.parse(localStorage.getItem('cadastros')) || [];
 
   const dados = {
@@ -17,6 +17,7 @@ function(event){
 
    localStorage.setItem('cadastros', JSON.stringify(cadastrosAtualizados));
    
-  input.value = " ";
+  inputNome.value = " ";
+  inputEmail.value = " ";
 
 });
