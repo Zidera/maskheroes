@@ -104,3 +104,26 @@ header{
 .ativo{
  display: block;
 }
+
+.rodape{
+  margin-top: 1rem;
+  background:#2C82F6;
+  display: flex;
+  justify-content: flex-end;
+  height: 5rem;
+  
+  
+}
+
+.rodape li{
+  margin-right: 4rem;
+}
+
+.rodape li a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  
+}
