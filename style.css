@@ -106,14 +106,15 @@ header{
  display: block;
 }
 
-.rodape{
+footer{
+  height: 2.9rem;
   margin-top: 1rem;
   background:#2C82F6;
+}
+
+.rodape{
   display: flex;
   justify-content: flex-end;
-  height: 2.9rem;
-  
-  
 }
 
 .rodape li{
