@@ -110,6 +110,9 @@ footer{
   height: 2.9rem;
   margin-top: 1rem;
   background:#2C82F6;
+  position:absolute;
+  bottom:0;
+  width:100%;
 }
 
 .rodape{
