@@ -1,0 +1,106 @@
+.container{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right:auto;
+  
+ 
+}
+
+body{
+  background-color:#DBE9F3 ;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  margin-bottom: 4rem;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+  
+}
+
+.principal{
+  display: grid;
+  grid-template-areas: "form carrossel";
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3rem;
+  
+}
+
+.principal__form{
+  grid-area: form;
+  
+}
+
+.principal__form h1{
+  font-size: 7rem;
+  color: rgba(29, 36, 51, 1);
+  font-weight: 700;
+  
+}
+
+.principal__form p{
+  font-size: 1rem;
+  color: rgba(29, 36, 51, 1);
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  
+}
+
+.principal__form h2{
+  color: rgba(29, 36, 51, 1);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  
+}
+
+.principal__form__form{
+  display: flex;
+  flex-direction: column;
+}
+
+.principal__form__form input{
+  margin-bottom: 0.8rem;
+}
+
+.principal__form-botao {
+	background-color:#2C82F6;
+	border-radius:28px;
+	border:1px solid #267ef0;
+	display:inline-block;
+	cursor:pointer;
+	color:rgba(29, 36, 51, 1);
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.principal__form-botao:hover {
+	background-color:#5cbf2a;
+}
+.principal__form-botao:active {
+	position:relative;
+	top:1px;
+}
+
+.principal__carrossel{
+  grid-area: carrosel;
+  
+  
+  
+}
+
+.mascara1, .mascara2, .mascara3{
+  margin-left: 3.5rem;
+  width: 465px;
+  height: 465px;
+  border-radius: 18px;
+  display: none;
+
+}
+
+.ativo{
+ display: block;
+}
